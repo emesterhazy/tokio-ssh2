@@ -1,0 +1,18 @@
+[package]
+name = "tokio-ssh2"
+version = "0.0.1"
+edition = "2018"
+authors = ["Evan Mesterhazy <evan.mesterhazy@gmail.com>"]
+license = "MIT/Apache-2.0"
+keywords = ["ssh", "sftp"]
+repository = "https://github.com/emesterhazy/tokio-ssh2"
+homepage = "https://github.com/emesterhazy/tokio-ssh2"
+documentation = "https://docs.rs/tokio-ssh2"
+description = """
+Tokio compatible async interface to libssh2 for interacting with SSH servers
+and executing remote commands, forwarding local ports, etc.
+"""
+
+[dependencies]
+ssh2 = "0.9"
+tokio = "1"
